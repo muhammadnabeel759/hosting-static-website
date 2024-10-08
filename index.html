@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-gray-800 text-white py-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">About Me</h2>
+            <p class="text-lg mb-4">I am a passionate developer with a knack for creating beautiful and functional web applications.</p>
+            <p>With expertise in HTML, CSS, JavaScript, and more, I strive to bring ideas to life.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Project 1</h3>
+                    <p>A brief description of Project 1.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Project 2</h3>
+                    <p>A brief description of Project 2.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Project 3</h3>
+                    <p>A brief description of Project 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Skills</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Tailwind CSS</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+            <form action="#" method="POST" class="max-w-lg mx-auto">
+                <input type="text" name="name" placeholder="Your Name" required class="border border-gray-300 p-3 mb-4 w-full rounded">
+                <input type="email" name="email" placeholder="Your Email" required class="border border-gray-300 p-3 mb-4 w-full rounded">
+                <textarea name="message" rows="4" placeholder="Your Message" required class="border border-gray-300 p-3 mb-4 w-full rounded"></textarea>
+                <button type="submit" class="bg-gray-800 text-white py-2 px-4 rounded">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
